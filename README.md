@@ -4,6 +4,21 @@ Lock files and folders with a passcode. Locked items stay visible in File Explor
 (as `Name.locked` with a padlock icon). Double-click one to enter your passcode and open it, and it
 locks itself again as soon as you close it.
 
+![File Locker main window](docs/screenshots/main-window.png)
+
+Double-clicking a locked item in File Explorer asks for your passcode:
+
+![Unlock prompt](docs/screenshots/unlock-prompt.png)
+
+On first launch you choose your passcode:
+
+![Create passcode](docs/screenshots/create-passcode.png)
+
+## Download
+
+Get `FileLocker.exe` from the [latest release](https://github.com/ZDStudios/File-Folder-Locker/releases/latest).
+It needs the [.NET 8 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/8.0) (Windows x64).
+
 ## Run it
 
 `dist\FileLocker.exe`. On first launch you create your passcode. Launching it also registers

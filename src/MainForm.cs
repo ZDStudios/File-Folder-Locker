@@ -22,7 +22,7 @@ sealed class MainForm : Form
         Icon = AppIcon.Window;
         Font = Ui.Font;
         StartPosition = FormStartPosition.CenterScreen;
-        ClientSize = new Size(LogicalToDeviceUnits(900), LogicalToDeviceUnits(480));
+        ClientSize = new Size(LogicalToDeviceUnits(1010), LogicalToDeviceUnits(480));
         MinimumSize = new Size(LogicalToDeviceUnits(640), LogicalToDeviceUnits(320));
         AllowDrop = true;
 
